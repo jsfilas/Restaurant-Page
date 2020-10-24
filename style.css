@@ -1,0 +1,64 @@
+ul {
+    display: block;
+    background-color: rgb(204, 31, 0);
+    margin: -20px;
+    border-bottom: solid rgb(0, 153, 8) 10px;
+    list-style-type: none;
+    
+}
+
+li {
+    color: white;
+    float: right;
+    font-size: 35px;
+    margin-right: 75px; 
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+#logo {
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: -28px;
+    margin-bottom: -4px;
+    margin-right: 20px;
+    background-color: rgb(253, 253, 253);
+}
+
+body {
+    
+    background-image: url("Images/ingredients.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#about, #Menu, #Contact {
+    background-color: rgba(253, 253, 253, 0.803);
+    width: 85%;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#abtTitle, #menuTitle, #contactTitle {
+    color: #d82331;
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+    font-size: 75px;
+}
+
+#abtInfo, .menuInfo, .contactInfo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 45px;
+    margin: 0;
+    padding: 20px;
+    color: #464646;
+}
